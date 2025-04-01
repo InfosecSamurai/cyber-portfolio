@@ -51,17 +51,6 @@ firefox index.html
 | Network        | Custom Nmap Wrapper       |
 | Red Teaming    | C2 Framework (WIP)        |
 
-## 🌐 Deployment
-```yaml
-# GitHub Pages Config
-on: [push]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: echo "Single-File Infosec Portfolio" > index.html
-```
 
 ## 🔓 Legal
 ```legal
